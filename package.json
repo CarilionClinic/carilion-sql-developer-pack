@@ -1,0 +1,16 @@
+{
+    "name": "carilion-sql-developer-pack",
+    "displayName": "carilion_sql_developer_pack",
+    "description": "A collection of extensions that enhance VS Code for sql development at Carilion Clinic",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "samuelcolvin.jinjahtml"
+    ],
+    "icon": "icon.png"
+}
