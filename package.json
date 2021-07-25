@@ -13,8 +13,7 @@
     "extensionPack": [
         "eamodio.gitlens",
         "donjayamanne.githistory",
-        "samuelcolvin.jinjahtml",
-        
+        "samuelcolvin.jinjahtml"
     ],
     "icon": "icon.png",
     "repository": {
