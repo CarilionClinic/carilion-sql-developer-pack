@@ -1,37 +1,14 @@
 # carilion-sql-developer-pack
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+[![Extension Version](https://vsmarketplacebadge.apphb.com/version-short/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials) 
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+This extension pack for Visual Studio Code adds extensions that are useful for SQl development at Carilion Clinic. Specifically it includes extensions useful for git, sql, and dbt workflows being hused by the Healthcare Analytics Department.
 
-## For more information
+## Reasons
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+The [carilion-sql-developer-pack] was made to standardize the extension installation of the commonly utilized extensions for Visual Studio Code every time a new member joins the BI development team, or one of them restores a laptop, or exchanges it for a new one.
 
-**Enjoy!**
-
-# Welcome to your VS Code Extension Pack
-
-## What's in the folder
-
-* This folder contains all of the files necessary for your extension pack.
-* `package.json` - this is the manifest file that defines the list of extensions of the extension pack.
-
-## Get up and running straight away
-
-* Press `F5` to open a new window with your extension loaded.
-* Open `Extensions Viewlet` and check your extensions are installed.
-
-## Make changes
-
-* You can relaunch the extension from the debug toolbar after making changes to the files listed above.
-* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
-
-## Install your extension
-
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
-
+See the [CHANGELOG](CHANGELOG.md) for the latest changes

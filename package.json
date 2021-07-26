@@ -3,7 +3,7 @@
     "displayName": "carilion_sql_developer_pack",
     "description": "A collection of extensions that enhance VS Code for sql development at Carilion Clinic",
     "publisher": "CarilionClinicData",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.58.0"
     },
