@@ -4,6 +4,13 @@ All notable changes to the "carilion-sql-developer-pack" extension pack will be 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0] - 2024-09-09
+- Updated Material Theme Ids
+- Added dbt Power User
+- Added sqlFluff
+- Added Better Comments
+- Added Rainbow-CSV
+
 ## [0.0.3]
 - Added Material Icon Theme
 - Added Material Theme
@@ -18,5 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial commit of extension pack
 
-[0.0.2]: https://github.com/CarilionClinicData/carilion-sql-developer-pack/releases/tag/v0.0.2
-[0.0.1]: https://github.com/CarilionClinicData/carilion-sql-developer-pack/releases/tag/v0.0.1
+[0.0.3]: https://github.com/CarilionClinic/carilion-sql-developer-pack/releases/tag/v0.0.3
+[0.0.2]: https://github.com/CarilionClinic/carilion-sql-developer-pack/releases/tag/v0.0.2
+[0.0.1]: https://github.com/CarilionClinic/carilion-sql-developer-pack/releases/tag/v0.0.1
