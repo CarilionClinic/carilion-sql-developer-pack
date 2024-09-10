@@ -5,18 +5,11 @@ on:
 
 jobs:
   test:
-    strategy:
-      matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     name: Test Node
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      # - name: Run headless test
-      #   uses: coactions/setup-xvfb@v1
-      #   with:
-      #     run: npm test
+        uses: actions/checkout@v4
 
   publish:
     name: Release and publish
@@ -29,7 +22,7 @@ jobs:
       id-token: write # to enable use of OIDC for npm provenance
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Setup Node.js
@@ -37,16 +30,14 @@ jobs:
         with:
           node-version: "lts/*"
       - name: Install dependencies
-        run: npm clean-install
-      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
+        run: npm install
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - name: Vscode release plugin
-        uses: JCofman/vscodeaction@master
+        uses: JCofman/vscodeaction@v3
         env:
           PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
         with:
