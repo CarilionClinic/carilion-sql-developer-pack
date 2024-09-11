@@ -23,26 +23,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "lts/*"
+          node-version: 20
       - name: Install dependencies
-        run: |
-         rm -rf node_modules
-         npm install
-         npm install vsce@latest
-         npm install undici@latest
+        run: npm ci
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - name: Vscode release plugin
-        uses: JCofman/vscodeaction@master
+        uses: lannonbr/vsce-action@4.0.0
         env:
           PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
         with:
-          args: publish -p $PUBLISHER_TOKEN 
+          args: "publish -p $PUBLISHER_TOKEN"
