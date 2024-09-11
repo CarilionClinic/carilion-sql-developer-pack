@@ -1,9 +1,9 @@
 # carilion-sql-developer-pack
 
-[![Extension Version](https://vsmarketplacebadge.apphb.com/version-short/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials) 
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/CarilionClinicData.carilion-sql-developer-pack.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials)
+![Extension Version](https://vsmarketplacebadges.dev/version/CarilionClinicData.carilion-sql-developer-pack.png)
+![Installs](https://vsmarketplacebadges.dev/installs/CarilionClinicData.carilion-sql-developer-pack.png)
+![Downloads](https://vsmarketplacebadges.dev/downloads/CarilionClinicData.carilion-sql-developer-pack.png)
+![Rating](https://vsmarketplacebadges.dev/rating-star/CarilionClinicData.carilion-sql-developer-pack.png)
 
 This extension pack for Visual Studio Code adds extensions that are useful for SQl development at Carilion Clinic. Specifically it includes extensions useful for git, sql, and dbt workflows being hused by the Healthcare Analytics Department.
 
