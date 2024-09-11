@@ -30,7 +30,11 @@ jobs:
         with:
           node-version: "lts/*"
       - name: Install dependencies
-        run: npm install
+        run: |
+         rm -rf node_modules
+         npm install
+         npm install vsce@latest
+         npm install undici@latest
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
