@@ -3,7 +3,7 @@
     "displayName": "carilion_sql_developer_pack",
     "description": "A collection of extensions that enhance VS Code for sql development at Carilion Clinic",
     "publisher": "CarilionClinicData",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.92.0"
     },
@@ -14,14 +14,12 @@
         "eamodio.gitlens",
         "donjayamanne.githistory",
         "samuelcolvin.jinjahtml",
-        "innoverio.vscode-dbt-power-user",
-        "dorzey.vscode-sqlfluff",
         "bastienboutonnet.vscode-dbt",
         "pkief.material-icon-theme",
-        "Equinusocio.vsc-material-theme",
         "aaron-bond.better-comments",
         "mechatroner.rainbow-csv",
-        "ms-python.python"
+        "ms-python.python",
+	"whizkydee.material-palenight-theme"
     ],
     "icon": "icon.png",
     "release": {
