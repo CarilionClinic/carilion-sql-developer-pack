@@ -14,14 +14,12 @@
         "eamodio.gitlens",
         "donjayamanne.githistory",
         "samuelcolvin.jinjahtml",
-        "innoverio.vscode-dbt-power-user",
-        "dorzey.vscode-sqlfluff",
         "bastienboutonnet.vscode-dbt",
         "pkief.material-icon-theme",
-        "Equinusocio.vsc-material-theme",
         "aaron-bond.better-comments",
         "mechatroner.rainbow-csv",
-        "ms-python.python"
+        "ms-python.python",
+	"whizkydee.material-palenight-theme"
     ],
     "icon": "icon.png",
     "release": {
